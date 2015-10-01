@@ -277,15 +277,14 @@ box-shadow: none !important; }
 				}
 
 				#contact-form .btn-info{
-					color: #50bfa4;
-			    background-color: white;
-			    float: left;
-			    padding: 10px 30px;
+					color: white;
+			    background-color: #50bfa4;
+			    padding: 10px 60px;
 			    font-size: 18px;
 			    border: 1px solid #00B0A0; 
 				}
 				
-				#contact-form .btn-info{
+				#contact-form .btn-info:hover{
 					background-color: rgba(250,250,250,.8);
 					color: #50bfa4;
 				}
