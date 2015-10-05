@@ -197,9 +197,9 @@ top: -13%; }
 		}
 		
 
-/* Services */
+/* about */
 
-#services{
+#about{
 }
 .sblock{border:1px solid transparent; -webkit-transition: all 0.5s ease;
 					   -moz-transition: all 0.5s ease;
@@ -207,21 +207,21 @@ top: -13%; }
 					       }
 .sblock:hover { border:1px solid rgba(5, 195, 249, 0.5); background:rgba(5, 195, 249, 0.5); }
 
-#services p { font-size:16px; color: #50bfa4; }
-#services h2, #services h5{ color: #50bfa4;}
-#services h5 {font-family: 'Raleway', sans-serif;}
-	.services-overlay{
+#about p { font-size:16px; color: #50bfa4; }
+#about h2, #about h5{ color: #50bfa4;}
+#about h5 {font-family: 'Raleway', sans-serif;}
+	.about-overlay{
 		/*background:rgba(0, 0, 0, 0.9);*/
 		background-color: white;
 		padding:70px 0;
 	}
-	#services-blocks{
+	#about-blocks{
 	}
-		#services-blocks div{
+		#about-blocks div{
 			text-align:center;
 			padding:20px 20px 30px 20px;
 		}
-			#services-blocks div span.fa{
+			#about-blocks div span.fa{
 				
 				width:110px;
 				height:110px;
@@ -233,32 +233,74 @@ top: -13%; }
 				   -moz-border-radius:50%;
 						border-radius:50%;
 			}
-			#services-blocks h4{
+			#about-blocks h4{
 				padding:20px 0;
 				color: #50bfa4;
 			}
+
+/* how it works */
+
+#how-it-works{
+}
+.sblock{border:1px solid transparent; -webkit-transition: all 0.5s ease;
+					   -moz-transition: all 0.5s ease;
+					     -o-transition: all 0.5s ease;
+					       }
+.sblock:hover { border:1px solid rgba(5, 195, 249, 0.5); background:rgba(5, 195, 249, 0.5); }
+
+#how-it-works p { font-size:16px; color: #50bfa4; }
+#how-it-works h2, #how-it-works h5{ color: #50bfa4;}
+#how-it-works h5 {font-family: 'Raleway', sans-serif;}
+	.how-it-works-overlay{
+		/*background:rgba(0, 0, 0, 0.9);*/
+		background-color: white;
+		padding:70px 0;
+	}
+	#how-it-works-blocks{
+	}
+		#how-it-works-blocks div{
+			text-align:center;
+			padding:20px 20px 30px 20px;
+		}
+			#how-it-works-blocks div span.fa{
+				
+				width:110px;
+				height:110px;
+				line-height:110px;
+				font-size:60px;
+				
+				color:rgba(255,255,255,1);
+				-webkit-border-radius:50%;
+				   -moz-border-radius:50%;
+						border-radius:50%;
+			}
+			#how-it-works-blocks h4{
+				padding:20px 0;
+				color: #50bfa4;
+			}
+
 
 /* Contact  */
 
 input { border: 1px solid #fff !important; -webkit-box-shadow: none !important;
 box-shadow: none !important; }
-#contact{
+.light-section{
 	background:#50bfa4;
 	padding:50px 0;
 }	
 .MT40 { margin-top:40px;}
 #contact p { font-size:16px;}
-	#contact-area{
+	#mc_embed_signup{
 	}
-		#contact-area h3{
+		#mc_embed_signup h3{
 			padding:0 0 38px 0;
 		}
-		#contact-form{
+		#mc-embedded-subscribe-form{
 		}
-			#contact-form .form-group{
+			#mc-embedded-subscribe-form .form-group{
 				margin:0 0 20px;
 			}
-				#contact-form .form-control{
+				#mc-embedded-subscribe-form .form-control{
 					
 					font-size:16px;
 					font-weight:400;
@@ -267,16 +309,16 @@ box-shadow: none !important; }
 					        border-radius:5px;
 					
 				}
-				#contact-form .form-control:focus{
+				#mc-embedded-subscribe-form .form-control:focus{
 					border-color:#fff;
 				}
-				#contact-form input.form-control{
+				#mc-embedded-subscribe-form input.form-control{
 					height:40px;
 					line-height:40px !important;
 					padding:3px 20px 0;
 				}
 
-				#contact-form .btn-info{
+				#mc-embedded-subscribe-form .btn-info{
 					color: white;
 			    background-color: #50bfa4;
 			    padding: 10px 60px;
@@ -284,7 +326,7 @@ box-shadow: none !important; }
 			    border: 1px solid #00B0A0; 
 				}
 				
-				#contact-form .btn-info:hover{
+				#mc-embedded-subscribe-form .btn-info:hover{
 					background-color: rgba(250,250,250,.8);
 					color: #50bfa4;
 				}
@@ -311,10 +353,10 @@ box-shadow: none !important; }
 		
 /* Contact Style Starts */
 
-	#contact h3, .address, #contact-form .form-group{
+	#contact h3, .address, #mc-embedded-subscribe-form .form-group{
 		text-align:center;
 	}
-	#contact-area{
+	#mc_embed_signup{
 		padding-bottom:20px;
 	}
 	
@@ -349,10 +391,10 @@ box-shadow: none !important; }
 
 /* Contact Style Starts */
 
-	#contact h3, .address, #contact-form .form-group{
+	#contact h3, .address, #mc-embedded-subscribe-form .form-group{
 		text-align:center;
 	}
-	#contact-area{
+	#mc_embed_signup{
 		padding-bottom:20px;
 	}
 
