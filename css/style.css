@@ -140,7 +140,38 @@ top: -13%; }
 	#header .main-head h4{
 		line-height:40px;
 	}
-	
+@media (max-width: 600px){
+	.hexagon h1 {
+		font-size: 36px;
+	}
+	.hexagon{
+		margin-bottom: 30px;
+	}
+	#header .main-head h2{
+		font-size: 24px;
+		font-family: arial;
+		line-height: 30px;
+		}
+	#header .main-head p{
+		font-size: 18px;
+		line-height: 30px;
+	}
+	.form-group {
+    padding: 10px 0px 10px !important;
+	}
+	#mc-embedded-subscribe-form .btn-info {
+    padding: 15px 30px !important;
+	}
+	section h2 {
+    font-size: 30px;
+	}
+	section p{
+		font-size: 16px; 
+	}
+	#how-it-works img{
+		width: 90%;
+	}
+}
 /* Countdown  */	
 	
 	#countdown-area{
