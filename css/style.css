@@ -64,7 +64,7 @@ h6{
 }
 	.header-overlay{
 		background:rgba(0, 0, 0, 0.6);
-		padding:30px 0;		
+		padding:30px 0 90px;		
 	}
 	 
 .hexagon {
@@ -72,7 +72,7 @@ h6{
   /*width: 70px; 
   height: 40.41px;
   background-color: #05c3f9 ;*/
-  margin: 90px auto 75px auto;
+  margin: 35px auto 60px;
   /*box-shadow: 0 0 10px rgba(0,0,0,0.35);*/
   text-align: center;
 }
@@ -81,7 +81,7 @@ h6{
 
 	font-family: 'Raleway', sans-serif;
 	font-size: 60px;
-	color: #50bfa4;
+	color: rgb(67,167,134);
 	margin-top: 15px;
   font-weight: 500;
 }
@@ -184,7 +184,7 @@ top: -13%; }
 
 	.main-head{
 		text-align:center;
-		padding:0 0 40px;
+		padding:0 0 15px;
 	}
 		.main-head h2, .main-head p{
 		}
@@ -194,6 +194,7 @@ top: -13%; }
 		.main-head p{
 			font-size:24px;
 			line-height:36px;
+			margin-top: 15px;
 		}
 		
 
@@ -205,16 +206,11 @@ top: -13%; }
 					   -moz-transition: all 0.5s ease;
 					     -o-transition: all 0.5s ease;
 					       }
-.sblock:hover { border:1px solid rgba(5, 195, 249, 0.5); background:rgba(5, 195, 249, 0.5); }
+.sblock:hover { border:1px solid rgba(55,200,134, 0.3);; background:rgba(55,200,134, 0.3); }
 
-#about p { font-size:16px; color: #50bfa4; }
-#about h2, #about h5{ color: #50bfa4;}
+/*#about p { font-size:16px; color: rgb(67,167,134); }
+#about h2, #about h5{ color: rgb(67,167,134);}*/
 #about h5 {font-family: 'Raleway', sans-serif;}
-	.about-overlay{
-		/*background:rgba(0, 0, 0, 0.9);*/
-		background-color: white;
-		padding:70px 0;
-	}
 	#about-blocks{
 	}
 		#about-blocks div{
@@ -235,9 +231,39 @@ top: -13%; }
 			}
 			#about-blocks h4{
 				padding:20px 0;
-				color: #50bfa4;
+				color: rgb(67,167,134);
 			}
+.dark-section h5{
+ 	text-align: center; margin-bottom: 20px;
+ }
+/* Light and dark content sections */
 
+.dark-section, #footer{
+
+	background-color: rgb(67,167,134);
+}
+
+.dark-section h2, .dark-section h5, .dark-section p{
+	color: white;
+}
+
+.light-section{
+
+	background-color: white;
+}
+
+.light-section h2, .light-section h5, .light-section p{
+	color: rgb(67,167,134);
+}
+
+section p{
+		font-weight: 500;
+    padding: 10px 0px;
+}
+
+section{
+	padding: 80px 0px;
+}
 /* how it works */
 
 #how-it-works{
@@ -246,16 +272,9 @@ top: -13%; }
 					   -moz-transition: all 0.5s ease;
 					     -o-transition: all 0.5s ease;
 					       }
-.sblock:hover { border:1px solid rgba(5, 195, 249, 0.5); background:rgba(5, 195, 249, 0.5); }
-
-#how-it-works p { font-size:16px; color: #50bfa4; }
-#how-it-works h2, #how-it-works h5{ color: #50bfa4;}
+#how-it-works p { font-size:16px; color: rgb(67,167,134); }
+#how-it-works h2, #how-it-works h5{ color: rgb(67,167,134);}
 #how-it-works h5 {font-family: 'Raleway', sans-serif;}
-	.how-it-works-overlay{
-		/*background:rgba(0, 0, 0, 0.9);*/
-		background-color: white;
-		padding:70px 0;
-	}
 	#how-it-works-blocks{
 	}
 		#how-it-works-blocks div{
@@ -276,17 +295,28 @@ top: -13%; }
 			}
 			#how-it-works-blocks h4{
 				padding:20px 0;
-				color: #50bfa4;
+				color: rgb(67,167,134);
 			}
 
+/* What I Learned */
+#results .fa {
+    font-size: 24px;
+    margin-right: 20px;
+    vertical-align: text-top;
+    display: inline-block;
+    color: #FFFF66;
+}
 
+#what-i-learned h5 {
+    font-family: 'Raleway', sans-serif;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
 /* Contact  */
 
 input { border: 1px solid #fff !important; -webkit-box-shadow: none !important;
 box-shadow: none !important; }
 .light-section{
-	background:#50bfa4;
-	padding:50px 0;
 }	
 .MT40 { margin-top:40px;}
 #contact p { font-size:16px;}
@@ -315,23 +345,31 @@ box-shadow: none !important; }
 				#mc-embedded-subscribe-form input.form-control{
 					height:40px;
 					line-height:40px !important;
-					padding:3px 20px 0;
+			    padding: 25px 20px;
+			    max-width: 90%;
+			    margin: 0 auto;
 				}
 
 				#mc-embedded-subscribe-form .btn-info{
 					color: white;
-			    background-color: #50bfa4;
-			    padding: 10px 60px;
+			    background-color: rgb(67,167,134);
+			    padding: 15px 80px;
 			    font-size: 18px;
-			    border: 1px solid #00B0A0; 
+			    border: 1px solid rgb(67,167,134) !important; 
 				}
 				
 				#mc-embedded-subscribe-form .btn-info:hover{
 					background-color: rgba(250,250,250,.8);
-					color: #50bfa4;
+					color: rgb(67,167,134);
+				}
+				input{
+
+					color: rgba(0,0,0,.8);
 				}
 				
-		
+.form-group {
+    padding: 30px 0px 20px;
+}
 
 /* Footer  */
 
@@ -340,8 +378,8 @@ box-shadow: none !important; }
 	/*margin-top:40px;*/
 	font-size:13px;
 	text-align:center;
-	background:rgba(248,217,245,1);
-	color: #00B0A0;
+	background-color: rgb(67,167,134);
+	color: white;
 }
 
 #footer p {margin:10px; }
